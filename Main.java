@@ -7,6 +7,12 @@ public class Main {
         car.go();
         car.stop();
 
+        System.out.println("");
+
+        Bike bike = new Bike();
+        bike.setSpeed(15);
+        car.go();
+        car.stop();
 
 
     }
